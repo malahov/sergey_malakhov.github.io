@@ -3,3 +3,11 @@ body {
 	padding: 10px;
 	background-color: aqua;
 }
+
+#photo {
+	padding: 5px;
+	float: left;
+}
+#short-info {
+	margin-left: 5px;
+}
