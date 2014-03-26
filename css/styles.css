@@ -1,13 +1,52 @@
+@CHARSET "UTF-8";
+
 body {
 	min-width: 800px;
-	padding: 10px;
-	background-color: aqua;
+	max-width: 1366px;	
+	padding: 10px;	
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#head, #photo, #short-info, #menu, #content, #footer {
+	border: 1px solid black;
+	padding: 5px;
+	margin: 5px;
+}
+
+#head {
+	
 }
 
 #photo {
-	padding: 5px;
-	float: left;
+	float: left;	
 }
+
 #short-info {
-	margin-left: 5px;
+	margin-left: 145px;
+	text-align: left;	
+}
+
+#menu {	
+	float: left;
+	width: 200px;
+	/* position: fixed;
+	top:auto;
+	left: auto;
+	bottom: auto; */
+}
+
+
+#content {
+	margin-left: 230px;
+	margin-top: 10px;
+}
+
+#footer {
+	font-size: 10px;
+	text-align: right;
+}
+
+.clear-both {
+	clear: both;
 }
