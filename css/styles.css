@@ -90,3 +90,21 @@ td {
 .clear-both {
 	clear: both;
 }
+
+.clear-left {
+	clear: left;
+}
+
+.image_preview {
+	border-style: none;
+	border-width: 0px;
+	padding: 0px;
+	display: block;	
+	height: 80px;
+	float: left;
+	vertical-align: middle;
+}
+
+.image_text {
+	padding-top: 30px;	
+}
